@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceAPI3", "FinanceAPI3.csproj", "{03E67605-C310-448D-90B5-4CAD34E3916C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPortfolio2", "..\WebPortfolio2\WebPortfolio2.csproj", "{32D25316-AB3A-4E15-946E-4F1D8F4CF0EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03E67605-C310-448D-90B5-4CAD34E3916C}.Debug|x86.ActiveCfg = Debug|x86
+		{03E67605-C310-448D-90B5-4CAD34E3916C}.Debug|x86.Build.0 = Debug|x86
+		{03E67605-C310-448D-90B5-4CAD34E3916C}.Release|x86.ActiveCfg = Release|x86
+		{03E67605-C310-448D-90B5-4CAD34E3916C}.Release|x86.Build.0 = Release|x86
+		{32D25316-AB3A-4E15-946E-4F1D8F4CF0EA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{32D25316-AB3A-4E15-946E-4F1D8F4CF0EA}.Debug|x86.Build.0 = Debug|Any CPU
+		{32D25316-AB3A-4E15-946E-4F1D8F4CF0EA}.Release|x86.ActiveCfg = Release|Any CPU
+		{32D25316-AB3A-4E15-946E-4F1D8F4CF0EA}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ..\WebPortfolio2\WebPortfolio2.csproj
+	EndGlobalSection
+EndGlobal

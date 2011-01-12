@@ -1,0 +1,10 @@
+C:\projects\PortfolioManager\FinanceAPI3\bin\Debug\FinanceAPI3.dll.config
+C:\projects\PortfolioManager\FinanceAPI3\bin\Debug\FinanceAPI3.dll
+C:\projects\PortfolioManager\FinanceAPI3\bin\Debug\FinanceAPI3.pdb
+C:\projects\PortfolioManager\FinanceAPI3\bin\Debug\Extention.dll
+C:\projects\PortfolioManager\FinanceAPI3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\projects\PortfolioManager\FinanceAPI3\obj\x86\Debug\FinanceAPI3.Properties.Resources.resources
+C:\projects\PortfolioManager\FinanceAPI3\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\projects\PortfolioManager\FinanceAPI3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\projects\PortfolioManager\FinanceAPI3\obj\x86\Debug\FinanceAPI3.dll
+C:\projects\PortfolioManager\FinanceAPI3\obj\x86\Debug\FinanceAPI3.pdb

@@ -1,0 +1,15 @@
+C:\projects\PortfolioManager\WebPortfolio2\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\PortfolioManager\WebPortfolio2\bin\WebPortfolio2.dll
+C:\projects\PortfolioManager\WebPortfolio2\bin\WebPortfolio2.pdb
+C:\projects\PortfolioManager\WebPortfolio2\bin\FinanceAPI2.dll
+C:\projects\PortfolioManager\WebPortfolio2\bin\PortfolioLibrary.dll
+C:\projects\PortfolioManager\WebPortfolio2\bin\System.Web.Mvc.dll
+C:\projects\PortfolioManager\WebPortfolio2\bin\Extention.dll
+C:\projects\PortfolioManager\WebPortfolio2\bin\PortfolioLibrary.pdb
+C:\projects\PortfolioManager\WebPortfolio2\bin\System.Web.Mvc.xml
+C:\projects\PortfolioManager\WebPortfolio2\bin\FinanceAPI2.pdb
+C:\projects\PortfolioManager\WebPortfolio2\bin\FinanceAPI2.xml
+C:\projects\PortfolioManager\WebPortfolio2\bin\Extention.pdb
+C:\projects\PortfolioManager\WebPortfolio2\bin\Extention.xml
+C:\projects\PortfolioManager\WebPortfolio2\obj\Debug\WebPortfolio2.dll
+C:\projects\PortfolioManager\WebPortfolio2\obj\Debug\WebPortfolio2.pdb

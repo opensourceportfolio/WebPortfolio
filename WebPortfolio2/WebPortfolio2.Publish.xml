@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Inetpub\wwwroot\WebPortfolio" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Views/Quote/Details.aspx" publishTime="12/29/2010 12:22:15" />
+    <file relUrl="Views/Portfolio/Main.aspx" publishTime="12/29/2010 15:07:22" />
+    <file relUrl="Scripts/jquery-ui.min.js" publishTime="12/17/2010 10:07:08" />
+    <file relUrl="bin/FinanceAPI2.xml" publishTime="01/05/2011 17:01:58" />
+    <file relUrl="Global.asax" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="Scripts/jquery.validate.js" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="Scripts/Mine/Dividend.js" publishTime="12/29/2010 12:23:31" />
+    <file relUrl="Scripts/jquery.validate-vsdoc.js" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="Views/Quote/CashDetails.aspx" publishTime="12/29/2010 11:56:12" />
+    <file relUrl="Content/custom-theme/images/ui-icons_454545_256x240.png" publishTime="12/23/2010 10:06:47" />
+    <file relUrl="Scripts/Mine/jquery.tablesorter.pager.js" publishTime="12/29/2010 10:19:01" />
+    <file relUrl="Content/custom-theme/images/ui-bg_glass_55_fbf9ee_1x400.png" publishTime="12/23/2010 10:06:46" />
+    <file relUrl="Views/Shared/Site.Master" publishTime="12/30/2010 12:23:28" />
+    <file relUrl="Scripts/jquery.tablesorter.min.js" publishTime="12/10/2010 15:13:27" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.debug.js" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="bin/System.Web.Abstractions.dll" publishTime="03/18/2010 19:31:26" />
+    <file relUrl="Scripts/MicrosoftAjax.js" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="Scripts/jquery.validate.min.js" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="Content/custom-theme/images/ui-bg_flat_0_aaaaaa_40x100.png" publishTime="12/23/2010 10:06:47" />
+    <file relUrl="Content/custom-theme/images/ui-icons_888888_256x240.png" publishTime="12/23/2010 10:06:47" />
+    <file relUrl="Content/custom-theme/images/ui-icons_2e83ff_256x240.png" publishTime="12/23/2010 10:06:47" />
+    <file relUrl="bin/WebPortfolio2.dll" publishTime="01/05/2011 17:01:59" />
+    <file relUrl="bin/PortfolioLibrary.dll" publishTime="01/05/2011 17:01:59" />
+    <file relUrl="Scripts/Mine/jquery-1.4.4.js" publishTime="12/21/2010 13:28:54" />
+    <file relUrl="bin/PortfolioLibrary.pdb" publishTime="01/05/2011 17:01:59" />
+    <file relUrl="bin/WebPortfolio2.pdb" publishTime="01/05/2011 17:01:59" />
+    <file relUrl="bin/System.Web.Mvc.xml" publishTime="02/17/2010 07:22:24" />
+    <file relUrl="Content/custom-theme/images/ui-icons_cd0a0a_256x240.png" publishTime="12/23/2010 10:06:47" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.js" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="bin/FinanceAPI2.dll" publishTime="01/05/2011 17:01:58" />
+    <file relUrl="bin/System.Web.Mvc.dll" publishTime="02/17/2010 07:24:14" />
+    <file relUrl="Content/custom-theme/images/ui-icons_222222_256x240.png" publishTime="12/23/2010 10:06:46" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.js" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="Scripts/Mine/jquery.yql.js" publishTime="12/30/2010 11:01:11" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.debug.js" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="Content/custom-theme/images/ui-bg_glass_65_ffffff_1x400.png" publishTime="12/23/2010 10:06:46" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="bin/System.Web.Routing.dll" publishTime="03/18/2010 19:31:26" />
+    <file relUrl="bin/Extention.pdb" publishTime="10/13/2010 10:27:39" />
+    <file relUrl="Content/custom-theme/images/ui-bg_glass_75_dadada_1x400.png" publishTime="12/23/2010 10:06:46" />
+    <file relUrl="bin/FinanceAPI2.pdb" publishTime="01/05/2011 17:01:58" />
+    <file relUrl="Content/custom-theme/images/ui-bg_flat_75_ffffff_40x100.png" publishTime="12/23/2010 10:06:45" />
+    <file relUrl="Content/custom-theme/jquery-ui-1.8.7.custom.css" publishTime="12/23/2010 10:10:06" />
+    <file relUrl="bin/Extention.dll" publishTime="10/13/2010 10:27:38" />
+    <file relUrl="Scripts/jquery.tablesorter.pager.js" publishTime="12/10/2010 15:14:07" />
+    <file relUrl="Web.config" publishTime="01/05/2011 17:02:02" />
+    <file relUrl="Content/Site.css" publishTime="12/30/2010 11:50:51" />
+    <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="Scripts/Mine/Portfolio.js" publishTime="01/04/2011 11:47:05" />
+    <file relUrl="Content/custom-theme/images/ui-bg_highlight-soft_75_e6eeee_1x100.png" publishTime="12/23/2010 10:06:45" />
+    <file relUrl="Content/custom-theme/images/ui-bg_glass_75_e6e6e6_1x400.png" publishTime="12/23/2010 10:06:45" />
+    <file relUrl="Content/custom-theme/images/ui-bg_inset-soft_95_fef1ec_1x100.png" publishTime="12/23/2010 10:06:46" />
+    <file relUrl="Scripts/Mine/CashDetails.js" publishTime="12/29/2010 12:08:04" />
+    <file relUrl="Scripts/Mine/Common.js" publishTime="12/30/2010 17:14:47" />
+    <file relUrl="Views/Web.config" publishTime="12/10/2010 14:27:46" />
+    <file relUrl="bin/Extention.xml" publishTime="10/13/2010 10:27:39" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="12/10/2010 14:27:46" />
+  </publishProfile>
+</publishData>

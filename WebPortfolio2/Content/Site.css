@@ -1,0 +1,264 @@
+﻿/* -----------Global-----------*/
+a
+{
+	text-decoration: none;
+}
+
+.separate
+{
+	margin: 10px 0pt 15px;
+}
+
+/* tables */
+
+
+.smallFont
+{
+	font-family: arial;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+table.tablesorter
+{
+	font-family: arial;
+	background-color: #CDCDCD;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+
+/* row cursor */
+table.tablesorter thead tr, .viewDividends
+{
+	cursor: pointer;
+}
+
+/* headers and footers */
+table.tablesorter thead tr th, table.tablesorter tfoot tr th
+{
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+
+/* cell */
+table.tablesorter tbody td
+{
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+
+/* alternative cells */
+table.tablesorter tbody tr.odd td
+{
+	background-color: #F0F0F6;
+}
+
+/* on mouse over */
+table.tablesorter tbody tr.over td
+{
+	background-color: #BCD4EC;
+}
+
+/* heighlight cells */
+table.tablesorter tbody tr td.negative
+{
+	color: red;
+}
+
+table.tablesorter tbody tr td.positive
+{
+	color: green;
+}
+
+/*--------- tabs ------------*/
+ul.tabs
+{
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 22px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 100%;
+}
+
+ul.tabs li
+{
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 21px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 21px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #e0e0e0;
+}
+
+ul.tabs li a
+{
+	color: #000;
+	display: block;
+	padding: 0 20px;
+	outline: none;
+}
+
+ul.tabs li a:hover
+{
+	background: #ccc;
+}
+
+ul.tabs li.active, ul.tabs li.active a:hover
+{
+	/*--Makes sure that the active tab does not listen to the hover properties--*/
+	background: #fff;
+	border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+}
+
+.tab_container
+{
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left;
+	width: 100%;
+	background: #fff;
+}
+
+/*---------------drop down---------------*/
+
+#portfolioMenu, #portfolioMenu ul
+{
+	background-color: #CDCDCD;
+	padding: 0px;
+	list-style-type: none;
+	width: 150px;
+}
+
+#portfolioMenu
+{
+	border: 1px solid #999;
+}
+
+#portfolioMenu > li
+{
+	background-color: #e6EEEE;
+	cursor: pointer;
+}
+
+#portfolioMenu li ul
+{
+	margin-top: 1px;
+	position: absolute;
+	background: #DFE7F5;
+	display: none;
+	z-index: 60;
+}
+
+#portfolioMenu > li > ul > li
+{
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+#portfolioMenu > li > ul > li:hover
+{
+	background: #CCDEFD;
+}
+
+p.menuItemText
+{
+	margin: 0;
+	padding: 4px;
+}
+
+/*---------------Add holdings---------------*/
+
+div.horizontal
+{
+	float: left;
+	margin-right: 5px;
+	width: 105px;
+	line-height: 14px;
+}
+
+div.long
+{
+	width: 125px;
+}
+
+select.short
+{
+	width: 65px;
+}
+
+div.veryLong, input.veryLong
+{
+	width: 225px;
+	margin-right: 15px;
+}
+
+.input
+{
+	margin-right: 5px;
+	width: 98px;
+}
+
+div.veryLong
+{
+	width: 225px;
+}
+
+.addTransaction
+{
+	display: none;
+}
+
+.showAddTransactionMenu
+{
+	margin-top: 10px;
+	background-color: #E8E8E8;
+	padding: 4px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 992px;
+}
+
+.addTransactionMenu
+{
+	display: none;
+	padding-bottom: 4px;
+}
+
+.addTransactionInput
+{
+	clear: left;
+	padding-bottom: 12px;
+	border-bottom: 1px solid black;
+	width: 1000px;
+}
+
+a.button
+{
+	border: 1px solid #BBBBBB;
+	text-align: center;
+	background-color: #E5E5E5;
+	font-weight: bold;
+	color: #555555;
+	line-height: 16px;
+	padding: 0 10px;
+}
+
+a.button:hover
+{
+	background-color: #DDDDDD;
+}
