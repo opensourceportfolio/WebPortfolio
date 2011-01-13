@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FinanceAPI3
 {
-    public class Portfolio
+    public class Portfolio : IPortfolio
     {
         public virtual int portfolioID { get; set; }
         public virtual string portfolioName { get; set; }
@@ -16,16 +16,6 @@ namespace FinanceAPI3
         {
             holdings = new List<Holding>();
             deposits = new List<Deposit>();
-        }
-
-        public virtual void addHolding(Holding holding)
-        {
-            holdings.Add(holding);
-        }
-
-        public virtual void addDeposit(Deposit deposit)
-        {
-            deposits.Add(deposit);
         }
     }
 }

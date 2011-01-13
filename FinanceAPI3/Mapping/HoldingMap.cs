@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +10,11 @@ namespace FinanceAPI3
     {
         public HoldingMap()
         {
-			Table("holdings");
+            Table("holdings");
             Id(x => x.holdingID);
             Map(x => x.symbol);
+            HasMany(x => x.dividends).KeyColumn("cashHistoryid");
+            HasMany(x => x.purchases).KeyColumn("purchaseHistoryID");
         }
     }
 }

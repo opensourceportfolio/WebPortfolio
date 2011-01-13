@@ -10,11 +10,11 @@ namespace FinanceAPI3
     {
         public PortfolioMap()
         {
-			Table("portfolios");
+            Table("portfolios");
             Id(x => x.portfolioID);
             Map(x => x.portfolioName);
-			HasMany(x => x.holdings).KeyColumn("portfolioID");
-			HasMany(x => x.deposits).KeyColumn("portfolioID");
+            HasMany<Holding>(x => x.holdings).KeyColumn("portfolioID");
+            HasMany<Deposit>(x => x.deposits).KeyColumn("portfolioID");
         }
     }
 }

@@ -1,12 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" ctype="Workspace" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../WebPortfolio2/Controllers/QuoteController.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../WebPortfolio2/Web.config" ctype="Workbench">
     <Files>
       <File FileName="Data/DataContext.cs" Line="50" Column="21" />
       <File FileName="Entities/Holding.cs" Line="8" Column="25" />
       <File FileName="Entities/Deposit.cs" Line="7" Column="2" />
       <File FileName="Entities/Purchase.cs" Line="12" Column="41" />
       <File FileName="../WebPortfolio2/Controllers/QuoteController.cs" Line="92" Column="54" />
+      <File FileName="../WebPortfolio2/Web.config" Line="8" Column="102" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

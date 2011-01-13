@@ -16,6 +16,7 @@ namespace FinanceAPI3
         DbConnection connection;
         DbDataAdapter adapter;
         DbCommand command;
+        DataContext dataContext;
 
         public DataLayer(string dbType = "mySQL")
         {
@@ -31,25 +32,23 @@ namespace FinanceAPI3
                 connection = new System.Data.SqlClient.SqlConnection(connectionString);
                 adapter = new System.Data.SqlClient.SqlDataAdapter();
             }
+            dataContext = new DataContext(1);
         }
 
         #region Query database
 
         public double getTotalCost(int portfolioID, double exchangeRate, string resultCurrency)
-        {
-            var dataContext = new DataContext();
-            return dataContext.getTotalCost(portfolioID,1,"U");
+        {            
+            return dataContext.getTotalCost(portfolioID, exchangeRate, resultCurrency);
         }
 
         public List<Purchase> getAllPurchases(int portfolioID)
         {
-            var dataContext = new DataContext();
             return dataContext.getAllPurchases(portfolioID);
         }
 
         public List<Purchase> getPurchaseHistroy(int portfolioID, string symbol)
         {
-            var dataContext = new DataContext();
             return dataContext.getPurchaseHistroy(portfolioID, symbol);
         }
 
@@ -63,7 +62,7 @@ namespace FinanceAPI3
             {
                 dividends.Add(new Dividend()
                 {
-                    dividendDate = row["date"].ToString(),
+                    dividendDate = System.DateTime.Parse(row["date"].ToString()),
                     amount = double.Parse(row["Amount"].ToString()),
                     tax = double.Parse(row["Tax"].ToString()),
                     type = row["type"].ToString(),
@@ -71,19 +70,16 @@ namespace FinanceAPI3
                     note = row["note"].ToString()
                 });
             }
-
             return dividends;
         }
 
         public List<Quote> getAllHoldings(int portfolioID, double exchangeRate, string resultingCurrency)
         {            
-            var dataContext = new DataContext();
             return dataContext.getHoldings(portfolioID, exchangeRate, resultingCurrency);
         }
 
         public List<Portfolio> getPortfolios()
         {
-            var dataContext = new DataContext();
             return dataContext.getPortfolios();
         }                      
 

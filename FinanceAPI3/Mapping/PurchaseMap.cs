@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace FinanceAPI3
     {
         public PurchaseMap()
         {
-			Table("purchasehistory");
+            Table("purchasehistory");
             Id(x => x.purchaseHistoryID);
             Map(x => x.portfolioID);
             Map(x => x.symbol);
